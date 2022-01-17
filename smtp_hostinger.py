@@ -2,7 +2,7 @@ import smtplib, ssl
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
-class SmtpHostinger:
+class SMTPHostinger:
 	"""
 	SMTP module for Hostinger emails
 	"""
