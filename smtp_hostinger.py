@@ -44,7 +44,7 @@ class SMTPHostinger:
 
 	def send(self, recipient: str, sender: str, subject: str, message: str):
 		"""
-		Send an email to the specified recipient 
+		Sends an email to the specified recipient 
 
 		Args:
 			recipient (str): recipient of the email
